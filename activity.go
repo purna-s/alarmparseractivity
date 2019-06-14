@@ -30,11 +30,11 @@ func (a *XMLParserActivity) Metadata() *activity.Metadata {
 //XSD
 type AlarmInfo struct {
 	XMLName      xml.Name   `xml:"AlarmInfo" json:"-"`
-	TAlarmList []VMSmsg `xml:"VMSmsg" json:"VMSmsg"`
+	TAlarmList   []TAlarm   `xml:"TAlarm" json:"TAlarm"`
 }
 
 type TAlarm struct {
-	XMLName xml.Name `xml:"TAlarm" json:"-"`
+	XMLName      xml.Name `xml:"TAlarm" json:"-"`
 	AlarmID      string `json:"AlarmID"`
 	NodeID       string `json:"NodeID"`
 	JunctionName string `json:"JunctionName"`
