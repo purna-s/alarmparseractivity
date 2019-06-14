@@ -1,0 +1,24 @@
+{
+  "name": "alarmparseractivity",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "github.com/purna-s/alarmparseractivity",  
+  "title": "AlarmParser",
+  "description": "Parse Alarm XML into a Flogo Array",
+  "author": "Purna S <purna.sadanala@prowesssoft.com>",
+
+  "inputs":[
+    
+    {
+      "name": "xmlString",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ]
+}
