@@ -3,7 +3,7 @@ title: alarmparseractivity
 ---
 
 # alarmparseractivity
-This activity allows Parse XML using Alarm schema in XMLParserActivity code
+This activity allows Parse Alarm XML using Alarm schema in XMLParserActivity code
 
 ## Installation
 ### Flogo CLI
